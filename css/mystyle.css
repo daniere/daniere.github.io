@@ -62,11 +62,18 @@ body {
   }
   .btn {
       padding: 10px 20px;
-      background-color: #333;
+      background-color: #2e8ed0;
       color: #f1f1f1;
-      border-radius: 0;
       transition: .2s;
+	  float:center;
   }
+  .btn-lg, .btn-group-lg > .btn {
+    padding: 10px 10px;
+    font-size: 15px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+	margin-right: 20px;
+}
   .btn:hover, .btn:focus {
       border: 1px solid #333;
       background-color: #fff;
